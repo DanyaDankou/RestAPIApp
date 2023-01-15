@@ -71,6 +71,6 @@ class ActionCVController: UICollectionViewController {
 
 extension ActionCVController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        CGSize(width: (UIScreen.main.bounds.width - 20), height: 80)
+        CGSize(width: (UIScreen.main.bounds.width - 20), height: 200)
     }
 }

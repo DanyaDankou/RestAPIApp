@@ -1,13 +1,13 @@
 //
-//  CommentsTVC.swift
+//  CommentsTableVC.swift
 //  RestAPIApp
 //
-//  Created by comp on 27.12.22.
+//  Created by comp on 4.01.23.
 //
 
 import UIKit
 
-class CommentsTVC: UITableViewController {
+class CommentsTableVC: UITableViewController {
 
     var postID: Int?
     var comments: [Comment] = []
